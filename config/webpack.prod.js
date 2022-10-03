@@ -15,7 +15,7 @@ const prodConfig = {
 			filename: "remoteEntry.js",
 			remotes: {},
 			exposes: {
-				"./Home": "./src/Main",
+				"./Home": "./src/bootstrap",
 			},
 			shared: {
 				...packageJson.dependencies,
